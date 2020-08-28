@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form class="formContact" onsubmit="validarFormulario(event)">
+        <div class="camposForm">
+            <label for="" >Nombre</label>
+            <input type="text" id="inputName" >
+            <span id="mensajeName" class="mensajeAlerta"></span>
+        </div>
+        <div class="camposForm">
+            <label for="" >Apellido</label>
+            <input type="text" id="inputApellido" >
+            <span id="mensajeApellido" class="mensajeAlerta"></span>
+        </div>
+        <div class="camposForm">
+            <label for="" >Correo</label>
+            <input type="text" id="inputCorreo">
+            <span id="mensajeCorreo" class="mensajeAlerta"></span>
+        </div>
+        <div class="camposForm">
+            <label for="" >Password</label>
+            <input type="password" id="inputPassword">
+            <span id="mensajePassword" class="mensajeAlerta"></span>
+        </div>
+        <div class="camposForm">
+            <label for="" >Celular</label>
+            <input type="text" id="inputCelular">
+            <span id="mensajeCelular" class="mensajeAlerta"></span>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

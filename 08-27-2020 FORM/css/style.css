@@ -1,0 +1,36 @@
+*{
+    padding: 8;
+    margin: 8;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formContact{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.camposForm{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.camposForm > label{
+    margin-bottom: 10px;
+}
+
+.alert{
+    background-color: rgb(143, 84, 84);
+}
+
+.mensajeAlerta{
+    color: royalblue;
+    font-size: 12px;
+    margin-top: 5px;
+}
