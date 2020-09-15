@@ -155,6 +155,8 @@
 //     }while (pass !== bd);
 // }
 
+document.write("<h1> Tabla del 5 </h1>")
+
 const tablaCinco = 5;
 for (let index = 1; index <= 10; index++){
     document.write("<li>" + tablaCinco + " x " + index + " =" + (index * tablaCinco) + "<br>");
