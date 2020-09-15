@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Nelson Alvarez",
+    "edad": 23,
+    "barrio": "Facatativa",
+    "hobbies": ["Futbol", "Billar", "Tejo"],
+    "padre": {
+        "name": "Camilo Sr",
+        "edad": 46,
+        "barrio": "Faca",
+        "hobbies": ["Futbol", "Billar", "Tejo"]
+    },
+    "madre":{
+        "nombre": "Mama Camilo",
+        "edad": 46,
+        "barrio": "Faca"
+    }
+    },
+    {
+        "nombre": "Herlyn Carima",
+        "edad": 23,
+        "barrio": "Facatativa",
+        "hobbies": ["Futbol", "Billar", "Tejo"],
+        "padre": {
+            "name": "Camilo Sr",
+            "edad": 46,
+            "barrio": "Faca",
+            "hobbies": ["Futbol", "Billar", "Tejo"]
+        },
+        "madre":{
+            "nombre": "Mama Camilo",
+            "edad": 46,
+            "barrio": "Faca"
+        }
+    }
+
+]
