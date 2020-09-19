@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Login Lista de Tareas</title>
 </head>
 <body>
-    
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span>Crear cuenta</span>
+        </div>
+
+        <div class="formulario">
+            <h2>Iniciar sesion</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar sesion">
+            </form>
+        </div>
+
+        <div class="formulario">
+            <h2>Crea tu cuenta</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="email" placeholder="Correo Electronico" required>
+                <input type="text" placeholder="Telefono" required>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+        <div class="reset-password">
+            <a href="#">Olvide mi Contraseña</a>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
